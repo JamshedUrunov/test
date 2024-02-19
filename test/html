@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>adab_db masn_daftars</title>
+</head>
+
+<body>
+  <button onclick="myFunction()">Click me</button>
+  <div id="div1"/>
+  <div id="div2"/>
+  <br/>
+  <script>
+  function myFunction()
+  {
+	let a = document.getElementById("div1");
+	let b = document.getElementById("div2");
+	a.innerHTML = "123";
+	b.innerHTML = "456";
+  }
+  </script>
+</body> 
+</html>
